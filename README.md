@@ -24,7 +24,7 @@ Example Playbook
 
     - hosts: all
       roles:
-         - src: cognifloyd.grub
+         - src: cognifloyd.grub-config
            grub_config.timeout: 1
 
 License
