@@ -13,8 +13,8 @@ Grub is expected to be installed and working on the guest.
 Role Variables
 --------------
 
-`grub_config` is a dictionary of values to change in the file specified with `grub_input_config`
-(which defaults to `/etc/defaults/grub`). Currently the only value that will be changed is timeout.
+Values are changed in the file specified with `grub_input_config`
+(which defaults to `/etc/defaults/grub`). Currently the only value that will be changed is `grub_timeout`.
 
 Dependencies
 ------------
@@ -27,7 +27,7 @@ Example Playbook
     - hosts: all
       roles:
          - src: cognifloyd.grub-config
-           grub_config.timeout: 1
+           grub_timeout: 1
 
 License
 -------

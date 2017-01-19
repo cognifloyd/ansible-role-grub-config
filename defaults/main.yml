@@ -1,7 +1,6 @@
 ---
 
-grub_config:
-  timeout: 5
+grub_timeout: 5
 
 grub_mkconfig_cmd: grub2-mkconfig
 grub_output_config: /boot/grub2/grub.cfg

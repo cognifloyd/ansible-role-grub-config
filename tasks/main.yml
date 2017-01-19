@@ -4,5 +4,5 @@
   lineinfile:
     dest: "{{ grub_input_config }}"
     regexp: "^GRUB_TIMEOUT=[0-9]+$"
-    line: "GRUB_TIMEOUT={{ grub_config.timeout }}"
+    line: "GRUB_TIMEOUT={{ grub_timeout }}"
   notify: "make grub config"
