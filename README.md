@@ -1,5 +1,7 @@
-Grub-config
+grub-config
 ===========
+
+[![Build Status](https://travis-ci.org/cognifloyd/ansible-role-grub-config.svg?branch=master)](https://travis-ci.org/cognifloyd/ansible-role-grub-config)
 
 Manage grub2 configuration on RHEL/CentOS
 
