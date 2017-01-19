@@ -1,0 +1,4 @@
+---
+
+- name: make grub config
+  command: "{{ grub_mkconfig_cmd }} -o {{ grub_output_config }}"

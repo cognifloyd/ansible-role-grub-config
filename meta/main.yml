@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: Jacob Floyd
+  description: Manage grub2 configuration on RHEL/CentOS
+  company: Theatro Labs, Inc.
+  license: MIT
+  min_ansible_version: 2.0
+  platforms:
+  - name: EL
+    versions:
+  #  - all
+  #  - 5
+  #  - 6
+    - 7
+  galaxy_tags: 
+    system
+
+dependencies: []
